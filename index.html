@@ -80,8 +80,7 @@
 
     <h1>🐾 我的互動教學大廳 🐾</h1>
     
-    <div id="project-list" class="grid">
-        </div>
+    <div id="project-list" class="grid"></div>
 
     <script>
         // 1. 更新日期與時間
@@ -112,7 +111,7 @@
         }
         showRandomPhrase();
 
-        // 3. 外部課程清單：維持 Canva=🎨, Classkick=📝
+        // 3. 外部課程清單
         const externalProjects = [
             {
                 name: 'Canva 互動課程',
@@ -123,6 +122,7 @@
             {
                 name: 'Classkick 課中練習',
                 description: '進入 Classkick 完成今天的練習題吧！',
+                // 這裡幫妳更新了妳剛才提供的網址
                 url: 'https://www.canva.com/design/DAHEekV3BTA/km7Bk5KLnTGW3h9eyK16aw/edit?utm_content=DAHEekV3BTA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton', 
                 emoji: '📝'
             }
@@ -185,7 +185,7 @@
             return card;
         }
 
-            fetchMyProjects();
-        </script>
-    </body>
+        fetchMyProjects();
+    </script>
+</body>
 </html>
